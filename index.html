@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Formulir Pendaftaran</h3>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> 
+            Perspiciatis rerum, beatae, laudantium tempore id in consequatur voluptates, 
+        </p>
+
+        <form action="">
+            <div class="row">
+                <label for="url">URL</label>
+                <input type="text" name="url" placeholder="https://google.com">
+            </div>
+
+            <div class="row">
+                <label for="namaProduk" aria-required="">Nama Produk</label>
+                <input type="text" placeholder="Tulis Nama Produk" required>
+            </div>
+
+            <div class="rowkategori">
+                <label for="kategoriProduk">Kategori Produk</label>
+                <select name="kategori" id="kategoriProduk">
+                    <option value="">Pilih Kategori</option>
+                    <option value="komputer">Komputer</option>
+                    <option value="laptop">Laptop</option>
+                    <option value="notebook">Notebook</option>
+                    <option value="handphone">Handphone</option>
+                </select>
+            </div>
+
+            <div class="rowharga">
+                <label for="harga">Harga/PCS</label>
+                <input type="text" placeholder="Tulis Harga Produk">
+                <select name="harga" id="harga">
+                    <option value="">$</option>
+                    <option value="">Rp</option>
+                </select>
+            </div>
+<!-- Kolom 2 -->
+            <div class="kolom2">
+                <div class="row1">
+                    <label for="beratProduk">Berat Produk</label>
+                    <input type="number" placeholder="Berat">
+                    <select name="berat" id="beratProduk">
+                        <option value="Gram">Gram</option>
+                        <option value="Ons">Ons</option>
+                        <option value="Kg">Kg</option>
+                    </select>
+                </div>
+               
+                <div class="row2">
+                    <label for="ukuran">Ukuran</label>
+                    <input type="number" placeholder="Lebar">
+                    <input type="number" placeholder="Tinggi">
+                    <input type="number" placeholder="Panjang">
+                    <select name="" id="ukuran">
+                        <option value="cm">Cm</option>
+                        <option value="Meter">Meter</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="rowcatatan">
+                <label for="catatan">Catatan Untuk Juragan Jastip</label>
+                <textarea name="" id="" cols="120%" rows="4"></textarea>
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="label">Jumlah</div>
+            <div class="rowbutton">
+                <button class="kiri" >
+                    <img src="./plus2.svg" alt="">
+                </button>
+                <input type="text" value="1" name="jumlah">
+                <button class="kanan">
+                    <img src="./min.svg" alt="">
+                </button>
+            </div>
+
+            <div class="row">
+                <label for="negara">Negara</label>
+                <select name="negara" id="negara">
+                    <option value=""></option>
+                    <option value="indonesia">Indonesia</option>
+                    <option value="inggris">Inggris</option>
+                </select>
+            </div>
+            
+            <div class="rowUpload">
+                <label for="upload">
+                    <p></p> Upload Image <br> 
+                    (Maks. 2.5 MB)</p>
+                    <img src="./plus2.svg" alt="">
+                </label>
+                <input type="file" name="upload" id="upload">
+            </div>
+
+            <div class="tombol">
+                <button class="satu">
+                    <a href="#">Tambah Ke Keranjang</a>
+                </button>
+                <button>
+                    <a href="#">Beliin</a>
+                </button class="dua">
+            </div>
+            
+        </form>
+    </div>
+    
+</body>
+</html>

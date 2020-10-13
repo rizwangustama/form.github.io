@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    color: orangered;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.row, .rowkategori, .rowharga, .kolom2, .rowcatatan, .rowbutton {
+    margin-bottom: 40px;
+}
+
+.row>label, .row1>label, .row2>label, .rowcatatan>label {
+    display: block;
+    padding-bottom: 10px;
+ }
+
+ .row input[type="text"], input[type="number"] {
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+    border-radius: 4px;
+    padding-left: 10px;
+    border: 1px solid rgb(0, 0, 0, .09);
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+.row input[type="text"]:focus, input[type="number"]:focus {
+    background-color: rgba(80, 200, 255, 0.137);
+    border-color: turquoise;
+}
+
+.rowkategori>label, .rowharga>label {
+    display: block;
+    padding-bottom: 10px;
+}
+.rowkategori select{
+    width: 200px;
+    height: 44px;
+    padding-left: 10px;
+    border: 1px solid rgb(0, 0, 0, .09);
+    border-radius: 4px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+.rowharga input[type="text"] {
+    margin-right: 10px;
+    width: 150px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0, .09);
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+.rowharga select{
+    width: 150px;
+    height: 44px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0, .09);
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+
+
+
+/* select {
+    width: 100px;
+    padding: 8px 10px;
+    max-width: 100%;
+} */
+
+.kolom2 {
+    display: inline-flex;
+}
+
+.row1 input[type="number"], .row2 input[type="number"] {
+    margin-right: 10px;
+    width: 144px;
+}
+
+.row1 select, .row2 select {
+    width: 144px;
+    border-radius: 4px;
+    padding-left: 10px;
+    height: 44px;
+    border: 1px solid rgb(0, 0, 0, .09);
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+.row1 {
+    margin-right: 10px;
+}
+
+.rowcatatan>textarea {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0, .09);
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+
+
+.rowbutton {
+    display: flex;
+    width: 200px;
+}
+
+.label {
+    margin-bottom: 10px;
+}
+
+.rowbutton input {
+    width: 100px;
+    margin: 0 auto;
+    height: 36px;
+    text-align: center;
+    border-radius: 0;
+    border: 1px solid rgb(0, 0, 0, .09);
+    border-right: none;
+    border-left: none;
+}
+
+.rowbutton .kiri {
+    clear: both;
+    border-radius: 4px 0px 0px 4px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0, .09);
+}
+
+.rowbutton .kanan {
+    border-radius: 0px 4px 4px 0px;
+    background-color: white;
+    width: 50px;
+    border: 1px solid rgb(0, 0, 0, .09);
+}
+
+
+.rowbutton button img {
+    width: 10px;
+    height: 10px;
+}
+
+.row>select {
+    width: 200px;
+    border-radius: 4px;
+    height: 44px;
+    border: 1px solid rgb(0, 0, 0, .09);
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+button{
+    margin-right: 20px;
+    height: 40px;
+    background-color: orangered;
+    border: 1px outset;
+    border-radius: 4px; 
+    width: 200px;
+}
+
+button:hover{
+    margin-right: 20px;
+    height: 40px;
+    background-color: orangered;
+    border: 1px outset;
+    border-radius: 4px; 
+    width: 220px;
+}
+
+button a {
+    color: white;
+}
+
+
+
+.poto {
+    position: absolute;
+    outline: none !important;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+}
+
+.rowUpload {
+    margin-bottom: 40px;
+}
+
+.rowUpload>input{
+    display: none;
+    text-align: center;
+    padding-left: 50%;
+}
+
+.rowUpload>label {
+    padding-bottom: 20px;
+}
+
+.rowUpload img {
+    display: none;
+    padding: 50px;
+    cursor: pointer;
+    display: block;
+    width: 70px;
+    background: white;
+    color: black;
+    font-size: 12px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
